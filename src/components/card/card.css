@@ -1,0 +1,27 @@
+h1{
+
+    text-align: center;
+}
+
+.card-wrapper {
+    border: 2px solid black;
+}
+
+button{
+
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.activo{
+
+
+    color: hotpink;
+}
+
+.inactivo{
+
+    color: gray;
+}

@@ -1,0 +1,15 @@
+.article {
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  padding: 16px 24px;
+  max-width: 360px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}

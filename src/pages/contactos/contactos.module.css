@@ -1,0 +1,59 @@
+.contactos {
+    max-width: 520px;
+    margin: 60px auto;
+    padding: 0 24px;
+    text-align: center;
+}
+
+.contactos h1 {
+    font-size: 2rem;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.contactos > p {
+    color: #555;
+    margin-bottom: 32px;
+}
+
+.contactosForm {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contactosForm input,
+.contactosForm textarea {
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.contactosForm input:focus,
+.contactosForm textarea:focus {
+    border-color: #00d4ff;
+}
+
+.contactosForm button {
+    padding: 12px;
+    background: #00d4ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contactosForm button:hover {
+    background: #00b8d9;
+}
+
+.contactosOk {
+    color: #28a745;
+    font-size: 1.05rem;
+    margin-top: 20px;
+}

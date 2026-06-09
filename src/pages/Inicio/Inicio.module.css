@@ -1,0 +1,70 @@
+.inicio {
+  width: 100%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 60px;
+  gap: 40px;
+}
+
+.heroText {
+  flex: 1;
+}
+
+.heroText h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a2e;
+}
+
+.heroText p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.heroBtn {
+  display: inline-block;
+  padding: 10px 28px;
+  background: #1a1a2e;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.heroBtn:hover {
+  background: #0f3460;
+}
+
+.heroImg {
+  flex: 1;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.conceptos {
+  padding: 40px 60px 60px;
+}
+
+.conceptosTitulo {
+  font-size: 1.5rem;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.conceptosGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}

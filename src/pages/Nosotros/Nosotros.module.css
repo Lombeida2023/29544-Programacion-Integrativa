@@ -1,0 +1,33 @@
+.nosotros {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 24px;
+}
+
+.nosotrosHeader {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.nosotrosHeader h1 {
+    font-size: 2rem;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+.nosotrosHeader p {
+    font-size: 1.05rem;
+    color: #555;
+}
+
+.materias {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 640px) {
+    .materias {
+        grid-template-columns: 1fr;
+    }
+}
